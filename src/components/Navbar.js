@@ -5,6 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
+        FreeRead
         <li>
           <NavLink to="/" exact>Home</NavLink>
         </li>
@@ -16,9 +17,6 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink to="/login">Login</NavLink>
-        </li>
-        <li>
-          <NavLink to="/signup">Signup</NavLink>
         </li>
       </ul>
     </nav>
