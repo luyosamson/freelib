@@ -46,14 +46,17 @@ const bookTypes=[
 
 
   return (
-    <div>
-      <div className='heroSection'>
-      <p>
-      <h2>Enrich Your World With Books</h2>
+    <div className='bg-rose-900'>
+     <div>
+
+      
+      <h2 className="font-bold text-4xl ml-10">Enrich Your World With Books</h2>
+      <p className='ml-10 text-green'>
       Discover, Learn and Grow with FreeRead.
       Access an endless library 
       of free books and fuel your 
-      passion for reading today! </p>
+      passion for reading today! 
+      </p>
         <img src={Image} alt='heroImage'/>
       <button>Browse More</button>
       <div className='socialMedia'>
