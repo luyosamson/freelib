@@ -1,1 +1,89 @@
-{}
+{
+  "books": [
+    {
+      "id": "1",
+      "name": "The Pragmatic Programmer",
+      "author": "Andrew Hunt, David Thomas",
+      "title": "Journey to Mastery",
+      "image": "https://example.com/pragmatic-programmer.jpg",
+      "category": "Business"
+    },
+    {
+      "id": "2",
+      "name": "Clean Code",
+      "author": "Robert C. Martin",
+      "title": "A Handbook of Agile Software Craftsmanship",
+      "image": "https://example.com/clean-code.jpg",
+      "category": "Masculinity"
+    },
+    {
+      "id": "3",
+      "name": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "title": "A Modern Introduction to Programming",
+      "image": "https://example.com/eloquent-js.jpg",
+      "category": "Self-Development"
+    },
+    {
+      "id": "4",
+      "name": "Clean Code",
+      "author": "Robert C. Martin",
+      "title": "A Handbook of Agile Software Craftsmanship",
+      "image": "https://example.com/clean-code.jpg",
+      "category": "Leadership"
+    },
+    {
+      "id": "5",
+      "name": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "title": "A Modern Introduction to Programming",
+      "image": "https://example.com/eloquent-js.jpg",
+      "category": "History"
+    }
+  ],
+  "users": [
+    {
+      "email": "luyosamson@gmail.com",
+      "password": "pass1234",
+      "firstname": "Luyo",
+      "lastName": "Samson",
+      "phone": "0797411980",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "photo": "Picha",
+      "id": "2c58"
+    },
+    {
+      "id": "dad3",
+      "email": "luyosamson@gmail.com",
+      "password": "pass1234",
+      "firstname": "Luyo",
+      "lastName": "Samson",
+      "phone": "0797411980",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "photo": "Picha"
+    },
+    {
+      "id": "2d46",
+      "email": "luyosamson@gmail.com",
+      "password": "pass1234",
+      "firstname": "Luyo",
+      "lastName": "Samson",
+      "phone": "0797411980",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "photo": "Picha"
+    },
+    {
+      "id": "4dc5",
+      "email": "brisamdigital24@gmail.com",
+      "password": "89898989"
+    },
+    {
+      "id": "dc76",
+      "email": "brisamdigital24@gmail.com",
+      "password": "89898989"
+    }
+  ]
+}
