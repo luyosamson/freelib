@@ -36,9 +36,11 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/login" activeClassName="text-yellow-400">
-              Login
-            </NavLink>
+          <NavLink to="/login" activeClassName="text-yellow-400">
+      <button className="w-full rounded-full bg-orange-500 text-white px-4 py-2 hover:bg-orange-600">
+        Login
+      </button>
+    </NavLink>
           </li>
         </ul>
 
@@ -85,7 +87,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/login" activeClassName="text-yellow-400">
+            <NavLink to="/register" activeClassName="text-yellow-400">
               Login
             </NavLink>
           </li>

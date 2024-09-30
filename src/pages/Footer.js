@@ -15,7 +15,7 @@ function Footer() {
               placeholder="Enter your email"
               className="p-2 w-full sm:w-1/3 rounded-md text-gray-900"
             />
-            <button className="bg-rose-600 text-white p-2 rounded-md sm:ml-2 mt-4 sm:mt-0 w-full sm:w-auto">
+            <button className="bg-orange-500 text-white p-2 rounded-md sm:ml-2 mt-4 sm:mt-0 w-full sm:w-auto">
               Subscribe
             </button>
           </form>
@@ -54,21 +54,22 @@ function Footer() {
             <h3 className="text-xl font-bold mb-4">Social Media</h3>
             <div className="flex justify-center sm:justify-start space-x-4">
               <a href="#" className="text-blue-500 hover:text-blue-400">
-                <FontAwesomeIcon icon={faXTwitter} size="lg" /> {/* X Icon */}
+                <FontAwesomeIcon icon={faXTwitter} size="2x" /> {/* X Icon */}
               </a>
               <a href="#" className="text-blue-500 hover:text-blue-400">
-                <FontAwesomeIcon icon={faFacebook} size="lg" /> {/* Facebook Icon */}
+                <FontAwesomeIcon icon={faFacebook} size="2x" /> {/* Facebook Icon */}
               </a>
               <a href="#" className="text-red-600 hover:text-red-500">
-                <FontAwesomeIcon icon={faYoutube} size="lg" /> {/* YouTube Icon */}
+                <FontAwesomeIcon icon={faYoutube} size="2x" /> {/* YouTube Icon */}
               </a>
               <a href="#" className="text-blue-500 hover:text-blue-400">
-                <FontAwesomeIcon icon={faLinkedin} size="lg" /> {/* LinkedIn Icon */}
+                <FontAwesomeIcon icon={faLinkedin} size="2x" /> {/* LinkedIn Icon */}
               </a>
             </div>
           </div>
         </div>
-    
+        <hr className="border-t-2 border-white my-4" />
+
         {/* Footer Bottom */}
         <div className="text-center mt-8 text-gray-500">
           <p>&copy; 2024 FreeRead. All rights reserved.</p>

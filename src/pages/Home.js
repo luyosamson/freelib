@@ -160,6 +160,14 @@ const bookTypes=[
 
 
 <div className="flex flex-col md:flex-row items-center justify-between">
+
+  <div className="md:w-1/2 p-4">
+    <img 
+      src="/images/aboutus.png" 
+      alt="aboutImage" 
+      className="w-full h-auto object-cover"
+    />
+  </div>
   <div className="md:w-1/2 p-4">
     <h2 className="text-3xl font-bold mb-6 mt-5 text-rose-950 text-center">About Us</h2>
     <p className="text-lg leading-relaxed">
@@ -171,18 +179,11 @@ const bookTypes=[
       and fostering a global community of readers.
     </p>
   </div>
-  
-  <div className="md:w-1/2 p-4">
-    <img 
-      src="/images/aboutus.png" 
-      alt="aboutImage" 
-      className="w-full h-auto object-cover" 
-    />
-  </div>
 </div>
 
+
       
-      <Footer/>
+    
     </div>
   )
 }
